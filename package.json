@@ -1,5 +1,6 @@
 {
   "name": "skycastweather",
+  "homepage": "https://NMRohith.github.io/SkyCast_MyWeather",
   "private": true,
   "version": "0.0.0",
   "type": "module",
