@@ -5,7 +5,6 @@ function Home({ city, setCity }) {
   const [input, setInput] = useState(city);
   const [error, setError] = useState('');
   const navigate = useNavigate();
-
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
     if (input.trim() === '') {
