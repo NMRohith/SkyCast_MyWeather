@@ -35,7 +35,6 @@ function Weather({ city }) {
     if (!weather) return null;
     return (weather.main.temp * 9) / 5 + 32;
   }, [weather]);
-
   return (
     <div className="container">
       <h1>Weather in {city}</h1>
